@@ -7,13 +7,14 @@ import './App.css'
 //import Body from './Components/Home/Body.jsx';
 //import Footer from './Components/Home/Footer.jsx';
 
-import Home from './screens/Home.jsx'
+import Home from './screens/Home.jsx';
+import  Counter   from './Components/Counter/Counter.jsx';
 
 function App() {
-   return (
+  return (
     <>
-   <Home />
-   
+      <Home />
+      <Counter />
     </>
   )
 }
