@@ -7,16 +7,18 @@ import './App.css'
 //import Body from './Components/Home/Body.jsx';
 //import Footer from './Components/Home/Footer.jsx';
 
-import Home from './screens/Home.jsx';
-import  Counter   from './Components/Counter/Counter.jsx';
-import Product from './screens/Product.jsx';
+//import Home from './screens/Home.jsx';
+//import  Counter   from './Components/Counter/Counter.jsx';
+//import Product from './screens/Product.jsx';
+
+import Navigator from './Components/Navigation/Navigator.jsx';
+import Router from './Components/Navigation/Router.jsx';
 function App() {
   return (
     <>
-      <Home />
-      <Counter />
-      <Product />
-    </>
+      <Navigator />
+      <Router />
+      </>
   )
 }
 
