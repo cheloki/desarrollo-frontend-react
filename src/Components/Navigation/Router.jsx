@@ -2,6 +2,7 @@ import Home from "../../screens/Home.jsx";
 import Product from "../../screens/Product.jsx";
 import About from "../../screens/About.jsx";
 import Think from "../../screens/Think.jsx";
+import Login from "../../screens/Login.jsx";
 import { Route, Routes } from "react-router";
 import Counter from "../Counter/Counter.jsx";
 
@@ -13,6 +14,7 @@ const Router = () =>{
             <Route path="about" element={<About />} />
             <Route path="think" element={<Think />} />
             <Route path="counter" element={<Counter />} /> 
+            <Route path="login" element={<Login />} /> 
         </Routes>
     );
 }

@@ -12,7 +12,7 @@ function SearchBar({ filterText, inStockOnly, onFilterTextChange, onInStockOnlyC
       <label>
         <input
           type="checkbox"
-          checked={inStockOnly}
+          //checked={inStockOnly}
           onChange={(e) => onInStockOnlyChange(e.target.checked)}
         />
         {' '}
