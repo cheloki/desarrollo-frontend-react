@@ -1,59 +1,57 @@
 // src/components/Module7.js
 import React from 'react';
-//import { Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+import { Typography, Table, TableBody, TableCell, TableContainer, TableRow, Paper } from '@mui/material';
 
 const temasCubiertos = [
-  'Introducción a React',
-  'Componentes y Props',
-  'Estado y Ciclo de Vida',
-  'Manejo de Eventos',
-  'Renderizado Condicional',
-  'Listas y Keys',
-  'Formularios',
-  'Elevando el Estado',
-  'Composición vs Herencia',
-  'Pensando en React'
+  'Componentes funcionales y de clase',
+  'Uso de React hooks como useState y useEffect',
+  'Creación de custom hooks como useForm',
+  'Gestión de variables de estado con useState',
+  'Gestión de estado global con Redux',
+  'Integración de Redux con React',
+  'Manejo de Formularios en React',
+  'Publicando nuestra Pagina con GitHub Pages'
 ];
 
 const LandingPage = () => {
   return (
     <div>
       <Typography variant="h4" gutterBottom>
-        Modelo 7: desarrollo frontend con REACT.JS
+        Modulo 7: DESARROLLO FRONTEND CON REACT.JS
       </Typography>
 
-      <Typography variant="h5" gutterBottom>
-        Bienvenido
+<Typography align="left" variant="h5" gutterBottom>
+        Bienvenido:
       </Typography>
-      <Typography variant="body1" paragraph>
-        Bienvenido al módulo 7 del curso de desarrollo frontend con REACT.JS. Aquí exploraremos los aspectos fundamentales y avanzados de React para ayudarte a construir interfaces de usuario dinámicas y eficaces.
+      <Typography align="left" variant="body1" paragraph>
+        Este módulo se centra en el uso de React, incluyendo la creación de componentes, el manejo de hooks, y el uso de Redux.
       </Typography>
 
-      <Typography variant="h5" gutterBottom>
+      
+
+      <Typography align="left" variant="h5" gutterBottom>
         Temas Cubiertos
       </Typography>
       <TableContainer component={Paper}>
         <Table>
-          <TableHead>
-            <TableRow>
-              <TableCell>Tema</TableCell>
-            </TableRow>
-          </TableHead>
           <TableBody>
-            {temasCubiertos.map((tema, index) => (
-              <TableRow key={index}>
-                <TableCell>{tema}</TableCell>
-              </TableRow>
-            ))}
+            <TableRow>
+              {temasCubiertos.map((tema, index) => (
+                <TableCell key={index}>{tema}</TableCell>
+              ))}
+            </TableRow>
           </TableBody>
         </Table>
       </TableContainer>
 
-      <Typography variant="h5" gutterBottom>
+      <Typography align="left" variant="h5" gutterBottom>
         Recursos Adicionales
       </Typography>
-      <Typography variant="body1" paragraph>
-        Aquí encontrarás recursos adicionales para profundizar en los temas cubiertos en este módulo. Estos recursos incluyen documentación oficial, tutoriales en línea, y proyectos de ejemplo.
+      <Typography align="left" variant="body1" paragraph>
+        Para profundizar en los temas cubiertos, consulta los siguientes recursos:.
+      </Typography>
+      <Typography variant="subtitle1" gutterBottom>
+      © 2024 Modulo 7. USIP
       </Typography>
     </div>
   );

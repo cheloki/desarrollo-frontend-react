@@ -10,7 +10,7 @@ import Counter from "../Counter/Counter.jsx";
 const Router = () =>{
     return (
         <Routes>
-            <Route index element={<Home />} />
+            <Route index element={<LandingPage />} />
             <Route path="products" element={<Product />} />
             <Route path="about" element={<About />} />
             <Route path="think" element={<Think />} />
