@@ -93,8 +93,30 @@
   z-index: 1000;
 }
 .notification-success {
-  background-color: #efd6bd;
-  color: #cc8259;
+  background-color: #0bec29;
+  color: #1a1919;
+  padding: 2rem;
+  border: 1px solid #cc8259;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+.notification-info {
+  background-color: #ebdc0b;
+  color: #070707;
+  padding: 2rem;
+  border: 1px solid #cc8259;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+.notification-error {
+  background-color: #f03225;
+  color: #0a0a0a;
   padding: 2rem;
   border: 1px solid #cc8259;
   border-radius: 0.5rem;
@@ -110,6 +132,16 @@
   background: transparent;
   border: none;
   color: #7e4f1a;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.close-btn-error {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  color: #102fdd;
   font-size: 1.5rem;
   cursor: pointer;
 }

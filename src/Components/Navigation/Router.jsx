@@ -1,4 +1,5 @@
 import Home from "../../screens/Home.jsx";
+import LandingPage from "../../screens/LandingPage.jsx";
 import Product from "../../screens/Product.jsx";
 import About from "../../screens/About.jsx";
 import Think from "../../screens/Think.jsx";
